@@ -5,7 +5,7 @@ def swap(li, i, j):
 
 
 def bubbleSort(li):
-    while True:
+    while True:  # Can also do for j in range(1, len(li)) instead of while True
         swapped = False
         for i in range(1, len(li)):
             if li[i - 1] > li[i]:
