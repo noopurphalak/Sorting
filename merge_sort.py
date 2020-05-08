@@ -7,7 +7,7 @@ def mergeSort(li):
     if len(li) == 1:
         return li
     breakup = len(li) // 2
-    l1 = li[0: breakup]
+    l1 = li[0:breakup]
     l2 = li[breakup:]
 
     l1 = mergeSort(l1)

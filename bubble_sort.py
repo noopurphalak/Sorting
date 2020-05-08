@@ -17,5 +17,5 @@ def bubbleSort(li):
             break
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     bubbleSort([14, 33, 27, 35, 10])

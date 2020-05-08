@@ -1,10 +1,10 @@
 graph = {
-    'A': set(['B', 'C']),
-    'B': set(['A', 'D', 'E']),
-    'C': set(['A', 'F']),
-    'D': set(['B']),
-    'E': set(['B', 'F']),
-    'F': set(['C', 'E'])
+    "A": set(["B", "C"]),
+    "B": set(["A", "D", "E"]),
+    "C": set(["A", "F"]),
+    "D": set(["B"]),
+    "E": set(["B", "F"]),
+    "F": set(["C", "E"]),
 }
 
 
@@ -29,5 +29,5 @@ def dfs1(graph, start, visited=None):
 
 
 if __name__ == "__main__":
-    dfs(graph, 'A')
-    print(dfs1(graph, 'A'))
+    dfs(graph, "A")
+    print(dfs1(graph, "A"))
